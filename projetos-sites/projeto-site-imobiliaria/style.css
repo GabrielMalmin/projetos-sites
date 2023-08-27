@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    font-family: tahoma;
+}
+
+/*=== Estilos globais===*/
+.secao {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.paragrafo {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+/*=== 1 secao ===*/
+.topo {
+    background-color: #afddfb;
+}
+.topo img {
+    width: 150px;
+}
+.topo p {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.topo p a {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/*=== 2 secao ===*/
+.banner {
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+/*=== estilos para destaques ===*/
+span {
+    font-weight: bold;
+}
+
+/*=== estilos para a 3 secao ===*/
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+h2 {
+    color: #1c81c0;
+    font-weight: normal;
+    margin-top: 0;
+}
+img {
+    width: 450px;
+}
+.texto-azul {
+    color: #1d80c1;
+}
+
+/*=== estilos para a 4 secao ===*/
+.servicos, .contato {
+    background-color: #1d80c1;
+}
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+.paragrafo-servicos {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+.texto-amarelo {
+    color: #fff81b;
+}
+.lista-servicos {
+    margin: 40px auto 40px;
+    width: 135px;
+}
+.item-lista-servicos {
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+/*=== estilos para a 6 secao ===*/
+.contato {
+    background-color: #1d80c1;
+}
+.paragrafo-contato {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lista-contato {
+    margin: 40px auto 40px;
+    width: 210px;
+    list-style: none;
+}
+.item-lista-contato {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.link-contato {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+background: blue url(ceu) repeat-x;
+}
